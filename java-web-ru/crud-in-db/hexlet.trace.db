@@ -1,0 +1,8 @@
+2023-02-08 18:00:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "UPDATE ARTICLES SET TITLE=? WHERE ID=? SET[*] BODY=? WHERE ID=?"
+Syntax error in SQL statement "UPDATE ARTICLES SET TITLE=? WHERE ID=? SET[*] BODY=? WHERE ID=?"; SQL statement:
+UPDATE articles SET title=? WHERE id=? SET body=? WHERE id=? [42000-200]
+2023-02-08 18:10:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "UPDATE ARTICLES SET TITLE=? WHERE ID=? AND SET BODY[*]=? WHERE ID=?"
+Syntax error in SQL statement "UPDATE ARTICLES SET TITLE=? WHERE ID=? AND SET BODY[*]=? WHERE ID=?"; SQL statement:
+UPDATE articles SET title=? WHERE id=? AND SET body=? WHERE id=? [42000-200]
